@@ -16,7 +16,7 @@ function Info() {
       {/* socials */}
       <div>
         <a
-          href="https://github.com/leedeverteuil/focus-sounds"
+          href="https://github.com/leedeverteuil/focus-o-matic"
           target="_blank"
           className="flex items-center justify-start gap-2 hover:underline">
           <Github></Github>
