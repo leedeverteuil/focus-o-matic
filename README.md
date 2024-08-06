@@ -8,9 +8,10 @@ Ambient sound mixer with a retro device theme for your focusing needs. Use the p
 </figure>
 
 <br/>
+<br/>
 
 <figure>
-  <img src="https://focus-o-matic.web.app/screenshots/screenshot-1.png" alt="Editing panel for adjusting the ambience mix" width="500"/>
+  <img src="https://focus-o-matic.web.app/screenshots/screenshot-1.png" alt="Editing panel for adjusting the ambience mix" width="700"/>
   <figcaption>Build your own mixes from the sound selection</figcaption>
 </figure>
 
