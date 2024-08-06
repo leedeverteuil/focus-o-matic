@@ -74,9 +74,7 @@ export const categories: SoundCategory[] = [
   },
 ];
 
-const defaultMixes: Mix[] = [
-  { "id": "rainy-day-retreat", "name": "Rainy River Day", "soundsWithVolumes": [{ "soundId": "fireplace", "volume": 0.3 }, { "soundId": "mountain-breeze", "volume": 0.16 }, { "soundId": "river", "volume": 0.07 }, { "soundId": "thunderstorm", "volume": 0.08 }, { "soundId": "rainfall", "volume": 0.1 }, { "soundId": "birds", "volume": 0.1 }] }, { "id": "1722972566316", "name": "Urban Cafe", "soundsWithVolumes": [{ "soundId": "city-traffic", "volume": 0.08 }, { "soundId": "cafe-chatter", "volume": 0.08 }, { "soundId": "distant-sirens", "volume": 0.03 }, { "soundId": "fan", "volume": 0.08 }] }, { "id": "1722972723234", "name": "Beach House", "soundsWithVolumes": [{ "soundId": "ocean-waves", "volume": 0.08 }, { "soundId": "mountain-breeze", "volume": 0.25 }, { "soundId": "wind-chimes", "volume": 0.03 }, { "soundId": "birds", "volume": 0.07 }] }
-];
+const defaultMixes: Mix[] = [{ "id": "rainy-day-retreat", "name": "Rainy River Day", "soundsWithVolumes": [{ "soundId": "fireplace", "volume": 0.17 }, { "soundId": "mountain-breeze", "volume": 0.16 }, { "soundId": "river", "volume": 0.07 }, { "soundId": "thunderstorm", "volume": 0.08 }, { "soundId": "rainfall", "volume": 0.1 }, { "soundId": "birds", "volume": 0.1 }] }, { "id": "1722972566316", "name": "Urban Cafe", "soundsWithVolumes": [{ "soundId": "city-traffic", "volume": 0.08 }, { "soundId": "cafe-chatter", "volume": 0.08 }, { "soundId": "distant-sirens", "volume": 0.03 }, { "soundId": "fan", "volume": 0.08 }] }, { "id": "1722972723234", "name": "Beach House", "soundsWithVolumes": [{ "soundId": "ocean-waves", "volume": 0.08 }, { "soundId": "mountain-breeze", "volume": 0.25 }, { "soundId": "wind-chimes", "volume": 0.03 }, { "soundId": "birds", "volume": 0.07 }] }]
 
 // cache mixes if already pulled
 let mixes: Mix[] | null = null;
