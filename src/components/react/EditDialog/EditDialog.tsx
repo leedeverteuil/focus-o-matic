@@ -66,7 +66,6 @@ const EditDialog = ({
         if (isPlaying) {
           playMix();
         }
-
       }
     }
   };
@@ -217,22 +216,24 @@ const EditDialog = ({
           />
         </div>
 
-        <div className="flex items-center gap-2 mt-3">
-          {/* save button */}
-          <button
-            onClick={saveMix}
-            disabled={!hasChanged || isNameEmpty}
-            className="bg-purple-700 rounded-xl w-full sm:w-fit py-2 px-16 text-purple-100 text-sm font-medium
+        <div className="flex items-center gap-2 mt-3 justify-between">
+          <div className="flex items-center gap-2">
+            {/* save button */}
+            <button
+              onClick={saveMix}
+              disabled={!hasChanged || isNameEmpty}
+              className="bg-purple-700 rounded-xl w-full sm:w-fit py-2 px-16 text-purple-100 text-sm font-medium
                     transition-all disabled:opacity-50 disabled:cursor-not-allowed">
-            Save mix
-          </button>
+              Save mix
+            </button>
 
-          {/* toggle playing button */}
-          <EditDialogToggleMixPlayingButton
-            isPlaying={isPlaying}
-            toggleMixPlaying={
-              toggleMixPlaying
-            }></EditDialogToggleMixPlayingButton>
+            {/* toggle playing button */}
+            <EditDialogToggleMixPlayingButton
+              isPlaying={isPlaying}
+              toggleMixPlaying={
+                toggleMixPlaying
+              }></EditDialogToggleMixPlayingButton>
+          </div>
 
           {/* delete button */}
           <button
