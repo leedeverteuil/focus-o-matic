@@ -57,7 +57,7 @@ const DeviceScreen = ({ currentMix, isPlaying }: DeviceScreenProps) => {
           }
           // not on max yet, move towards max
           else {
-            currentTranslateX = currentTranslateX - 50 * (dt / 1000);
+            currentTranslateX = Math.max(-cutoffPx, currentTranslateX - 50 * (dt / 1000));
           }
         }
         // not enough time on min
