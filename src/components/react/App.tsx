@@ -9,6 +9,7 @@ import {
   type Mix,
 } from "@util/sounds";
 import EditDialog from "./EditDialog/EditDialog";
+import "@util/firebase.ts";
 
 const App = () => {
   const [mixes, setMixes] = useState<Mix[]>([]);
